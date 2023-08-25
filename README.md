@@ -104,8 +104,7 @@ For inquiries or suggestions, you can reach out via email: faisalk3996@gmail.com
 <be/>
 <br />
 by Syed Rehan Ali Kazmi <br/>
-[Linkedin](https://www.linkedin.com/in/mohd-rehan-3744b6194/) | [GitHub](https://github.com/rehan-786)
-
+[Linkedin](https://www.linkedin.com/in/mohd-rehan-3744b6194/) | [GitHub](https://github.com/reyan-786)
 <br />
 by Faisal Ali Khan <br/>
 
