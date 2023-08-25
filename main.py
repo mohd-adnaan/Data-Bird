@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import tkinter as tk
 
-import mysql.connector
+# import mysql.connector
 from Scraper.LoopHandler import read_from_dataframe, import_handler
 
 eel.init('templates')
