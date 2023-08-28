@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -65,5 +65,107 @@
     <script src="eel.js"></script>
     <script src="main.js"></script>
 
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credits</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="Temp_logo_data_bird.ico">
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: 'Arial', sans-serif;
+        }
+        .credits-page {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin-top: 50px;
+        }
+        .btn-secondary {
+            background-color: #6c757d;
+            border-color: #6c757d;
+            transition: background-color 0.3s, border-color 0.3s;
+        }
+        .btn-secondary:hover {
+            background-color: #5a6268;
+            border-color: #545b62;
+        }
+        .back-button {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            opacity: 0.8;
+            transition: opacity 0.3s;
+        }
+        .back-button:hover {
+            opacity: 1;
+        }
+        .logo {
+            max-width: 200px;
+            height: auto;
+            margin-top: 30px;
+            animation: fadeInDown 1s;
+        }
+        .tagline {
+            font-size: 24px;
+            margin: 15px 0;
+            color: #555;
+            animation: fadeInUp 1s;
+        }
+        .credits-list {
+            text-align: left;
+            margin-top: 30px;
+            animation: fadeInUp 1.5s;
+        }
+        .feature {
+            margin-bottom: 15px;
+            color: #333;
+            line-height: 1.5;
+        }
+        .feature strong {
+            color: #444;
+        }
+    </style>
+</head>
+<body>
+    <div class="container text-center">
+        <img src="Data Bird Logo.png" alt="Data Bird Logo" class="logo animate__animated">
+        <p class="tagline animate__animated">Welcome to Data Bird</p>
+        <p class="tagline animate__animated">Empowering Your Data Journey</p>
+        <p class="animate__animated">Designed with ❤️ by Mohd Rehan and Faisal Khan</p>
+    </div>
+
+    <div class="container credits-page">
+        <div id="creditsContent" class="animate__animated">
+            <h2>About Data Bird</h2>
+            <p>Data Bird is your ultimate companion for data collection, tracking, and visualization.</p>
+            <h2>Features</h2>
+            <div class="credits-list">
+                <div class="feature">
+                    <strong>Data Scraping Wizard:</strong> Effortlessly gather data from websites.
+                </div>
+                <div class="feature">
+                    <strong>Price Tracking:</strong> Keep tabs on your favorite product prices.
+                </div>
+                <div class="feature">
+                    <strong>API <-> Data:</strong> Seamlessly fetch data and export as CSV or JSON.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button type="button" id="backButton" class="btn btn-secondary back-button animate__animated" onclick="MainPage()">Back to Main</button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script src="eel.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>

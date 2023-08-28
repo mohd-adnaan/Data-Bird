@@ -59,8 +59,24 @@ Extract data from APIs efficiently:
 1. Clone this repository to your local machine.
 2. Install the required dependencies using the following command:
 
+For Windows/Linux
 ```bash
 # Replace 'pip' with 'pip3' if necessary
+pip install -r requirements.txt
+```
+For MAC OS
+
+# Replace 'pip' with 'pip3' if necessary
+1.Open your terminal/command prompt and navigate to your project directory
+```bash
+python -m venv myenv
+```
+2.On macOS and Linux:
+```bash
+source myenv/bin/activate
+```
+3.Install the necessary dependencies using 
+```bash
 pip install -r requirements.txt
 ```
 ## Usage
@@ -103,13 +119,14 @@ For inquiries or suggestions, you can reach out via email: faisalk3996@gmail.com
 ![Screenshot 5](Screenshots/screenshot(5).png)
 <be/>
 <br />
+
 by Syed Rehan Ali Kazmi <br/>
 [Linkedin](https://www.linkedin.com/in/mohd-rehan-3744b6194/) | [GitHub](https://github.com/reyan-786)
 <br />
 by Faisal Ali Khan <br/>
-
 [Linkedin](https://www.linkedin.com/in/faisal-k-727b5017b/) | [GitHub](https://github.com/faisalkhan19)
 <br />
 by Mohammad Adnaan<br />
 [Linkedin](https://www.linkedin.com/in/mohammad-adnaan-51272024a/) | [GitHub](https://github.com/mohd-adnaan)
+</br>
 

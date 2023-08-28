@@ -43,16 +43,18 @@ body {
     }
 }
 
-#backButton {
-    position :fixed;
-    bottom: 20px;
-    left: 20px;
+.back-button {
+    position: fixed;
+    top: '20px';
+    left: '20px';
+    margin: 0; 
+    z-index: 1000; 
 }
 
 @media (max-width: 768px) {
     #backButton {
-        bottom: 10px; /* Adjust this value for smaller screens */
-        left: 10px; /* Adjust this value for smaller screens */
+        bottom: '10px'; /* Adjust this value for smaller screens */
+        left: '10px'; /* Adjust this value for smaller screens */
     }
 }
 
